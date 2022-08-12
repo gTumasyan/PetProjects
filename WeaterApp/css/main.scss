@@ -1,0 +1,40 @@
+@import url(./abstracts/_variables.scss);
+@import url(./abstracts//_base.scss);
+
+.card{
+    margin-top: 5%;
+    padding: 3%;
+    border-radius: 20px;
+    width: 350px;
+    height: 500px;
+    background-color:$bg-color;
+        &_search{
+            margin-bottom: 2%;
+            &>input{
+                width:17rem;
+                height: 2rem;
+                border-radius: 10px;
+                border: 0;
+            }
+        }
+        &_header{
+            h1{
+                font-size: 3.5rem;
+                font-family: 'Antonio', sans-serif;
+                color: $font-color;
+
+            }
+            h2{
+                font-size: 3.5rem;
+                font-family: 'Antonio', sans-serif;
+                color: $font-color;
+            }
+        }
+        &_info {
+            p{
+                font-size: 1.2rem;
+                font-family: 'Roboto', sans-serif;
+                color: $font-color;
+            }
+        }
+}
